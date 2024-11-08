@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    background-color: #131518;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-inline: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul, li, button {
+    font-size: 1rem;
+}
+
+button {
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #262E38;
+    width: 42px;
+    height: 42px;
+    color: #969FAD;
+    border: none;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #FC7614;
+    color: #262E38;
+}
+
+.btn:focus {
+    background-color: #FFFFFF;
+    color: #262E38;
+}
+
+.btn-submit {
+    background-color: #FC7614;
+    padding-block: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    color: #131518;
+    margin-top: 2rem;
+    transition: 0.3s;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.rate-container{
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    padding-inline: 24px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    border-radius: 15px;
+}
+
+
+.rate-container img {
+    padding: 16px;
+    border-radius: 50%;
+    background-color: #262E38;
+    margin-bottom: 16px;
+}
+
+.rate-container h1{
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+}
+.rate-container p{
+    margin-bottom: 24px;
+    color: #969FAD;
+    font-family: Overpass;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.thank-you {
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    padding-inline: 24px;
+    padding-top: 34px;
+    padding-bottom: 37px;
+    border-radius: 0.625rem;
+}
+.thank-you p {
+    margin-bottom: 24px;
+}
+
+.rate-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate-container ul li {
+    margin: 0.5rem;
+}
+
+.thank-you {
+    text-align: center;
+}
+
+.thank-you h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.thank-you img {
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.rate-result{
+    background-color: #262E38;
+    color: #FC7614;
+    padding-inline: 12px;
+    padding-block: 5px;
+    border-radius: 22.5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-off{
+    display: none;
+}
